@@ -27,14 +27,12 @@
 	width:23px;
 	height:24px;
 	
-	
 	background-color: #199DBB;
 							/*hor vert blur spread col*/
 		-moz-box-shadow:inset 3px 3px 3px 3px #2DA2B6;
 		-webkit-box-shadow:inset 0px 0px 3px 3px #2DA2B6;
 		box-shaddow:inset 3px 3px 3px 3px #2DA2B6;
 		
-	
 	behavior: url(PIE.htc);
 }
 
@@ -134,8 +132,11 @@
 	background: -ms-linear-gradient(top, #63b9c5 0%,#3daec7 50%,#1d9eb7 100%); /* IE10+ */
 	background: linear-gradient(top, #63b9c5 0%,#3daec7 50%,#1d9eb7 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63b9c5', endColorstr='#1d9eb7',GradientType=0 ); /* IE6-8 */
-	
+}
 
+.wrapper:active .plusBttn
+{
+	background: #1AA1C0; /* Old browsers */
 }
 
 
@@ -159,7 +160,10 @@
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#69cce1', endColorstr='#36bbd5',GradientType=0 ); /* IE6-8 */
 	}
 
-
+	.wrapper:active .buttonRight
+	{
+		background:#35BEDD;
+	}
 
 
 
