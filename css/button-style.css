@@ -1,0 +1,87 @@
+
+
+.wrapper
+{
+	height: 26px;
+	width: 145px;
+
+
+}
+
+.buttonLeft
+{
+
+
+		border: 1px solid #156071;
+		-moz-border-radius-topleft: 4px;
+		-moz-border-radius-topright: 0px;
+		-moz-border-radius-bottomright: 0px;
+		-moz-border-radius-bottomleft: 4px;
+		-webkit-border-radius: 4px 0px 0px 4px;
+		border-radius: 4px 0px 0px 4px;
+		
+		border-right:1px solid #1E89A1;
+
+	text-align: center;
+	width:26px;
+	height:26px;
+	
+	
+	background-color: #199DBB;
+							/*hor vert blur spread col*/
+		-moz-box-shadow:inset 3px 3px 3px 3px #2DA2B6;
+		-webkit-box-shadow:inset 0px 0px 3px 3px #2DA2B6;
+		box-shaddow:inset 3px 3px 3px 3px #2DA2B6;
+		
+	float:left;		
+	behavior: url(PIE.htc);
+}
+
+		.plusBttn
+		{
+			
+			height:25px;
+			width:25px;
+			background-image:url('../images/bookmark-cross.png');
+			background-repeat:no-repeat;
+			background-position:center center;
+		}
+
+.buttonRight
+{
+	float:left;
+	
+	border: 1px solid #34BCD8;
+		-moz-border-radius-topleft: 4px;
+		-moz-border-radius-topright: 0px;
+		-moz-border-radius-bottomright: 0px;
+		-moz-border-radius-bottomleft: 4px;
+		-webkit-border-radius: 0px 4px 4px 0px;
+		border-radius: 0px 4px 4px 0px;
+		
+	text-align: center;
+	width:115px;
+	height:26px;
+	
+
+	
+	
+	background-color:#35bedd;
+	
+	behavior: url(PIE.htc);
+}
+
+.ie9 .buttonRight
+{
+     filter: none;
+}
+
+.buttonRight p
+{
+		margin-top:6px;
+		color:white;
+		font-family: "helvetica";
+		font-size:12px;	
+		text-align:center;
+		text-shadow: 1px 1px 2px #333;
+}
