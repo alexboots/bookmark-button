@@ -1,0 +1,81 @@
+
+
+.wraper
+{
+	height: 27px;
+	width: 140px;
+	background-color:red;
+}
+
+.buttonLeft
+{
+		-w-border-top-right-radius:2em;
+
+	border: 1px solid #1E88A0;
+		-moz-border-top-left-radius:4x;
+		-webkit-border-top-left-radius:4x;
+		border-top-left-radius:4x;
+
+		-moz-top-right-radius:4x;
+		-webkit-border-top-left-radius:4x;
+		border-top-left-radius:4x;
+
+	text-align: center;
+	width:27px;
+	height:27px;
+	
+	
+	background-color: #199DBB;
+		-moz-box-shadow:inset 3px 3px 3px 3px #199ab0;
+		-webkit-box-shadow:inset 3px 3px 3px 3px #199ab0;
+		box-shaddow:inset 3px 3px 3px 3px #199ab0;
+
+	float:left;
+	
+	
+	behavior: url(PIE.htc);
+}
+
+.buttonRight
+{
+	float:left;
+	
+	border: 1px solid #34BCD8;
+
+	text-align: center;
+	width:140px;
+	height:27px;
+	
+	background: #34bcd8; /* Old browsers */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM0YmNkOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzNGJhZDUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #34bcd8 0%, #34bad5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#34bcd8), color-stop(100%,#34bad5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #34bcd8 0%,#34bad5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #34bcd8 0%,#34bad5 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #34bcd8 0%,#34bad5 100%); /* IE10+ */
+	background: linear-gradient(top,  #34bcd8 0%,#34bad5 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34bcd8', endColorstr='#34bad5',GradientType=0 ); /* IE6-8 */
+	
+	
+	
+	background-color:#35bedd;
+		-moz-box-shadow:inset 0px 0px 3px 3px #199ab0;
+		-webkit-box-shadow:inset 0px 0px 3px 3px #199ab0;
+		box-shaddow:inset 0px 0px 3px 3px #199ab0;
+		
+	behavior: url(PIE.htc);
+}
+
+.ie9 .buttonRight
+{
+     filter: none;
+}
+
+.buttonRight p
+{
+		margin-top:6px;
+			color:white;
+			font-family: "helvetica";
+			font-size:14px;	
+			text-align:center;
+}
