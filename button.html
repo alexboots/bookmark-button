@@ -1,24 +1,42 @@
+<!DOCTYPE html>
+<html>
 <head>
 	<link href="css/button-style.css" rel="stylesheet">	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+	<script>
+	    jQuery.each(jQuery.browser, function(i, val) {
+	      $("<div>" + i + " : <span>" + val + "</span>")
+	                .appendTo( document.body );
+	    });
+	</script>
+
 </head>
+<body>
+	<div class="wrapper">
+		<div class="buttonLeft">
+			 <div class="plusBttn">
+				<img src="images/bookmark-cross.png" class="plusBttn">
+			</div><!-- plusBttn-->
+		</div><!-- buttonLeft -->
 
-<div class="wrapper">
-	<div class="buttonLeft">
-		 <div class="plusBttn">
-			<img src="images/bookmark-cross.png" class="plusBttn">
-		</div><!-- plusBttn-->
-	</div><!-- buttonLeft -->
+		<div class="buttonRight">
+			<div class="bookmarkLink">
+				<a href="http://www.google.com">
+				 BOOKMARK US	
+				 <span class="makeDivClickable"></span> 
+				</a>
+			</div><!-- bookmark link -->
+		</div><!-- buttonRight -->
+	</div><!-- wrapper -->
+</body>
+</html>
+<!--
 
-	<div class="buttonRight">
-		<div class="bookmarkLink">
-			<a href="http://www.google.com" class="jQueryBookmark">
-			 BOOKMARK US	
-			 <span class="makeDivClickable"></span> 
-			</a>
-		</div><!-- bookmark link -->
-	</div><!-- buttonRight -->
-</div><!-- wrapper -->
+	IE: 
+	FIREFOX: support for this sucks, not worth implimenting, opens it in a sidebar
+	OPERA: 
 
-	<!-- put the following before the closing body tag -->
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	
+	SAFARI: Dont think so
+	CHROME: Never, completely blocked
+
+-->

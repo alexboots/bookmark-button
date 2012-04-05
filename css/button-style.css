@@ -98,7 +98,7 @@
 
 .buttonRight .bookmarkLink
 {
-	padding-top:5px;
+	padding-top:2px;
 }
 .buttonRight .bookmarkLink a:link
 {
@@ -148,7 +148,7 @@
 			text-align:center;
 			text-shadow: 1px 1px 2px #333;
 			text-decoration: none;	
-		
+			
 			background: #69cce1; /* Old browsers */
 			background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzY5Y2NlMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzUxYzdlMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzNmJiZDUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
 			background: -moz-linear-gradient(top,  #69cce1 0%, #51c7e2 50%, #36bbd5 100%); /* FF3.6+ */
@@ -159,6 +159,11 @@
 			background: linear-gradient(top,  #69cce1 0%,#51c7e2 50%,#36bbd5 100%); /* W3C */
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#69cce1', endColorstr='#36bbd5',GradientType=0 ); /* IE6-8 */
 	}
+	
+		.wrapper:hover .buttonRight .bookmarkLink
+		{
+			padding-top:5px;
+		}
 
 	.wrapper:active .buttonRight
 	{
